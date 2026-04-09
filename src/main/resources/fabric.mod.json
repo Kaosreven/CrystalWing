@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "crystal_wing",
+  "version": "${version}",
+
+  "name": "Crystal Wing",
+  "description": "A port of the crystal wing",
+  "authors": [
+    "Kaosreven"
+  ],
+
+  "license": "MIT",
+  "icon": "assets/crystal_wing/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "stationapi:event_bus": [
+      "com.github.kaosreven.crystal_wing.ModHelper",
+      "com.github.kaosreven.crystal_wing.events.init.ItemListener"
+    ],
+    "stationapi:event_bus_client": [
+    ],
+    "stationapi:event_bus_server": [
+    ],
+    "bhcreative:event_bus": [
+      "com.github.kaosreven.crystal_wing.events.init.CreativeListener"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "minecraft": "1.0.0-beta.7.3",
+    "stationapi": ">=2.0.0-alpha.5.4"
+  }
+}

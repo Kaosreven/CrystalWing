@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "bcc",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_ingot"
+    },
+    "b": {
+      "item": "minecraft:redstone"
+    },
+    "c": {
+      "item": "minecraft:feather"
+    },
+    "d": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "item": "crystal_wing:crystal_wing",
+    "count": 1
+  }
+}
